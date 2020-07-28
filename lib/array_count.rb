@@ -5,7 +5,7 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  if count_strings(array).length > 0
+  if count_strings(array) > 0
     array.count |empty|
     empty == "" || " "
   end
