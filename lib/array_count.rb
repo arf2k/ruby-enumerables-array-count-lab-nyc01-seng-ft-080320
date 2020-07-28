@@ -4,10 +4,12 @@ def count_strings(array)
   end
 end
 
-
-
-
-
+def count_empty_strings(array)
+  if count_strings(array).length > 0
+    array.count |empty|
+    empty == "" || " "
+  end
+end
 
 
 
